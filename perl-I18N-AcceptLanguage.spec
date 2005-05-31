@@ -8,12 +8,12 @@
 Summary:	I18N::AcceptLanguage - matches language preference to available languages
 Summary(pl):	I18N::AcceptLanguage - wybór preferowanego jêzyka spo¶ród dostêpnych
 Name:		perl-I18N-AcceptLanguage
-Version:	1.02
+Version:	1.04
 Release:	1
 License:	IBM Public License v1.0
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f4681fbb740ad10ee83d50619e682c88
+# Source0-md5:	1701416f97aeb857dab6f3905e396864
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
