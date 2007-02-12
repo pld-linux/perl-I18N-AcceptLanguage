@@ -6,7 +6,7 @@
 %define	pdir	I18N
 %define	pnam	AcceptLanguage
 Summary:	I18N::AcceptLanguage - matches language preference to available languages
-Summary(pl):	I18N::AcceptLanguage - wyb髍 preferowanego j陑yka spo秗骴 dost阷nych
+Summary(pl.UTF-8):   I18N::AcceptLanguage - wyb贸r preferowanego j臋zyka spo艣r贸d dost臋pnych
 Name:		perl-I18N-AcceptLanguage
 Version:	1.04
 Release:	1
@@ -27,11 +27,11 @@ I18N::AcceptLanguage matches language preference to available
 languages per rules defined in RFC 2616, section 14.4: HTTP/1.1 -
 Header Field Definitions - Accept-Language.
 
-%description -l pl
-I18N::AcceptLanguage dokonuje wyboru j陑yk體 na podstawie preferencji
-j陑ykowych oraz dost阷nych j陑yk體, zgodnie z zasadami okre秎onymi w
+%description -l pl.UTF-8
+I18N::AcceptLanguage dokonuje wyboru j臋zyk贸w na podstawie preferencji
+j臋zykowych oraz dost臋pnych j臋zyk贸w, zgodnie z zasadami okre艣lonymi w
 rozdziale 14.4 RFC 2616: HTTP/1.1 - Header Field Definitions -
-Accept-Language (HTTP/1.1 - definicje p髄 nag丑wka - Accept-Language).
+Accept-Language (HTTP/1.1 - definicje p贸l nag艂贸wka - Accept-Language).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
