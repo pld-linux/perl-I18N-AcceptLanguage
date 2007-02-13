@@ -6,7 +6,7 @@
 %define	pdir	I18N
 %define	pnam	AcceptLanguage
 Summary:	I18N::AcceptLanguage - matches language preference to available languages
-Summary(pl.UTF-8):   I18N::AcceptLanguage - wybór preferowanego języka spośród dostępnych
+Summary(pl.UTF-8):	I18N::AcceptLanguage - wybór preferowanego języka spośród dostępnych
 Name:		perl-I18N-AcceptLanguage
 Version:	1.04
 Release:	1
