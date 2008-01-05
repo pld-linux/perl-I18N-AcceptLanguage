@@ -12,12 +12,13 @@ Version:	1.04
 Release:	1
 License:	IBM Public License v1.0
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/I18N/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1701416f97aeb857dab6f3905e396864
+URL:		http://search.cpan.org/dist/I18N-AcceptLanguage/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(Test::More) >= 0.45
+BuildRequires:	perl-Test-Simple >= 0.45
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
