@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	I18N
 %define	pnam	AcceptLanguage
 Summary:	I18N::AcceptLanguage - matches language preference to available languages
